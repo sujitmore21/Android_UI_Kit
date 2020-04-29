@@ -28,16 +28,19 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView recyclerView = findViewById(R.id.rv_list);
         List<ItemModel> mlist = new ArrayList<>();
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
-        mlist.add(new ItemModel(R.drawable.ic_launcher_background,"cities",R.drawable.ic_launcher_background,2500));
+        mlist.add(new ItemModel(R.drawable.nick_herasimenka,"Nick Herasimenka",R.drawable.collins_lesulie,2500));
+        mlist.add(new ItemModel(R.drawable.jeff_rodgers,"Jeff Rodgers",R.drawable.stephen_arnold,1500));
+        mlist.add(new ItemModel(R.drawable.ray_hennessy,"Roy Hennessy",R.drawable.tyler_nix,500));
+        mlist.add(new ItemModel(R.drawable.collins_lesulie,"Collins Lesulie",R.drawable.tyler_nix,1100));
+        mlist.add(new ItemModel(R.drawable.stephen_arnold,"Stephen Arnold",R.drawable.stephen_arnold,3200));
+        mlist.add(new ItemModel(R.drawable.tyler_nix,"Tyler Nix",R.drawable.collins_lesulie,2200));
+        mlist.add(new ItemModel(R.drawable.nick_herasimenka,"Nick Herasimenka",R.drawable.collins_lesulie,2500));
+        mlist.add(new ItemModel(R.drawable.jeff_rodgers,"Jeff Rodgers",R.drawable.stephen_arnold,1500));
+        mlist.add(new ItemModel(R.drawable.ray_hennessy,"Roy Hennessy",R.drawable.tyler_nix,500));
+        mlist.add(new ItemModel(R.drawable.collins_lesulie,"Collins Lesulie",R.drawable.tyler_nix,1100));
+        mlist.add(new ItemModel(R.drawable.stephen_arnold,"Stephen Arnold",R.drawable.stephen_arnold,3200));
+        mlist.add(new ItemModel(R.drawable.tyler_nix,"Tyler Nix",R.drawable.collins_lesulie,2200));
+
 
         ItemAdapter adapter = new ItemAdapter(this,mlist);
         recyclerView.setAdapter(adapter);
